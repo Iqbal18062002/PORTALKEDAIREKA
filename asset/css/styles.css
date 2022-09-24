@@ -1,0 +1,369 @@
+@font-face {
+  font-family: monb;
+  src: url('fonts/Montserrat-Bold.ttf');
+}
+@font-face {
+  font-family: mon;
+  src: url('fonts/Montserrat-Medium.ttf');
+}
+@font-face {
+  font-family: monl;
+  src: url('fonts/Montserrat-Light.ttf');
+}
+@font-face {
+  font-family: monr;
+  src: url('fonts/Montserrat-Regular.ttf');
+}
+.login-form {
+  display: block;
+  position: fixed;
+  border:2px solid grey;
+  border-radius: 5px;
+  padding: 5px;
+  background-color: white;
+ } 
+
+ #page-wrapper {
+    min-height: 870px;
+
+}
+.side-nav li{
+  background-color:#AA0000 !important;
+
+}.navbar-inverse .navbar-nav>li {
+    color:black;
+    background-color:white;
+
+}.navbar-inverse .navbar-nav>li>a {
+    
+    border: none;
+    border-radius: 13px;
+}
+.side-nav li a {
+  color: white !important;
+  background-color: #AA0000 !important;
+  font-family: monr;
+}
+.side-nav li a:hover, .side-nav .active a,.side-nav a:focus {
+  color : black !important;
+  background-color: white !important;
+  font-family: monr;
+  
+}
+.navbar-inverse {
+  background-color: white !important;
+  border : none;
+}
+.navbar-inverse .navbar-brand {
+  color: white;
+}
+.top-nav>li>a{
+  color: white;
+}
+
+.erlert-success{
+	display:block;
+	border-radius:10px;
+	background-color:rgba(119, 193, 138, 0.9);
+	padding: 10px;
+  margin-top : 100px;
+  margin-left: 300px;
+}
+.frm-new {
+	display:block;
+	background-color:rgba(208, 212, 209, 0.23);
+	width:300px;
+	border-radius:20px;
+	position:fixed;
+	z-index:1030;
+	padding-left:30px
+}
+.erlert{
+	display:block;
+	border-radius:5px;
+	background-color:rgba(230, 103, 42, 0.37);
+	padding: 5px;
+}
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+.st_main{
+  margin-top : 50px;
+}
+
+.st_judul{
+  margin-top: 20px;
+  text-align: center;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-family: mon;
+}
+
+.st_tambah, .st_tambah:focus{
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 15px;
+  font-family: monr;
+}
+
+.panel-heading{
+  background-color: white !important;
+  border: 3px;
+}
+
+.st_tambah:hover{
+  background-color: #7E0000!important;
+    color: white !important;
+    border-radius: 15px;
+}
+
+.st_edit, .st_edit:focus{
+  background-color: #7E0000;
+  color: white;
+  border-radius: 15px;
+  font-family: mon;
+}
+
+.st_edit:hover{
+  background-color: #D9D9D9;
+  color: black;
+  border-radius: 15px;
+}
+
+.sv_add{
+  margin-left: 80px; 
+  width: 100px; 
+  text-align:center;
+  margin-top: 10px;
+}
+
+#heads{
+  background-color: #973C3C;
+  color: white;
+  height: 50px !important;
+}
+
+#heads th, #heads td{
+  text-align:center;vertical-align: middle;
+  font-family: monr;
+  font-size: 18px !important;
+  font-weight: 200;
+
+}
+
+.tbody{
+  background-color: #D9D9D9;
+  
+}
+
+.tbody tr td{
+  font-family: monr;
+  font-size: 17px;
+  font-weight: 200;
+  color: black !important;
+  
+}
+
+.ans{
+  border-radius: 10px !important;
+  border-color: #7E0000 !important;
+  
+}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 5.50s ease;
+}
+
+
+/* Fading animation */
+.fadee {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 5s;
+  animation-name: fade;
+  animation-duration: 5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+.logo{
+  width: 52px;
+  height: 50px;
+  margin : 18px;
+  margin-top : 40px;
+}
+
+.judul{
+  background-color: #AA0000 !important;
+}
+
+.judul_atas{
+  margin-top : 30px;
+  height : 15px;
+  color : white;
+  font-size : 22px;
+  font-family: monb;
+}
+
+.judul_bawah{
+  padding-top : 3 px;
+  color : white;
+  font-size : 17px;
+  font-family: monb;
+}
+
+.ds_page{
+  text-align: center;
+  padding-top: 50px;
+  padding-left: auto;
+}
+
+.logo_ds{
+  width: 360px;
+  height: 352px;
+  padding-top: 10px;
+}
+
+.modal-sm .modal-content .modal-header .modal-title {
+  vertical-align: middle;
+}
+
+.wd{
+  width: 250px !important;
+}
+
+.lg_in{
+  margin-right:0px;padding-left:60px
+}
+
+.lg_text{
+  margin-left:100px !important;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.tbl{
+  margin-top: 30px;
+}
+
+.tbl .btn{
+  width: 100px;
+  font-size: 18px;
+}
+
+@media (min-width:768px){
+  .back {
+width: 600px;
+height: 400px;
+background-color: white;
+left:450px;
+top:150px;
+
+} 
+.lg_img{
+height:80px;
+width:auto;
+margin-left:0px !important;
+margin-top: 10px !important;
+margin-bottom: 10px !important;
+}
+
+}
+
+@media (max-width:767px){
+.back {
+padding: 30px;
+width: 500px;
+background-color: white;
+left:50px;
+top:150px;
+} 
+.lg_img{
+height:50px;
+width:auto;
+float:left;
+margin : 10px;
+}
+.lg_text{
+  margin-left:100px !important;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.lg_in{
+  margin-right:0px;padding-left:0px
+}
+.tbl{
+  margin-left:150px !important;
+}
+
+}
+.erlert{
+display:block;
+border-radius:5px;
+background-color:rgba(230, 103, 42, 0.37);
+padding: 5px;
+}
+
+#students_length label, #students_filter label{
+  font-family: monr;
+  font-size: 17px;
+ 
+}
+
+#students_info, .pagination li{
+  font-family: mon;
+  font-size: 15px;
+}
+
+.modal-title{
+  font-family: monr !important;
+
+}
